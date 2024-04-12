@@ -24,6 +24,7 @@ return {
         ["python"] = { "black" },
         ["go"] = { "black" },
         ["lua"] = { "black" },
+        ["bash"] = { "black" },
       },
     },
   }

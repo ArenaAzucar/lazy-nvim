@@ -7,6 +7,7 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(vim.env.LAZY or lazypath)
 
+
 require("lazy").setup({
   spec = {
     -- 添加 LazyVim 并且导入它的其他插件
